@@ -1,0 +1,2 @@
+System.register([],function(u){"use strict";return{execute:function(){u("p",f);function n(r){let t;for(;t=r.sourceEvent;)r=t;return r}function f(r,t){if(r=n(r),t===void 0&&(t=r.currentTarget),t){var i=t.ownerSVGElement||t;if(i.createSVGPoint){var e=i.createSVGPoint();return e.x=r.clientX,e.y=r.clientY,e=e.matrixTransform(t.getScreenCTM().inverse()),[e.x,e.y]}if(t.getBoundingClientRect){var c=t.getBoundingClientRect();return[r.clientX-c.left-t.clientLeft,r.clientY-c.top-t.clientTop]}}return[r.pageX,r.pageY]}}}});
+//# sourceMappingURL=chunk-pointer-d7512c37.js.map
