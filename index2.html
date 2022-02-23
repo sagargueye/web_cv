@@ -67,6 +67,7 @@
     <meta content="https://api.github.com/_private/browser/errors" name="browser-errors-url">
     <meta content="https://api.github.com/_private/browser/optimizely_client/errors" name="browser-optimizely-client-errors-url">
     <meta content="#1e2327" name="theme-color">
+
 </head>
 
 <body class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
@@ -108,13 +109,11 @@
 
                             <div class="col-12 col-lg-6 text-center text-md-left position-relative">
                                 <div class="home-globe-container home-globe-container-webgl"
-                                     data-feature="home_page_globe" data-feature-hydro="{&quot;event_type&quot;:&quot;feature_flag_decision&quot;,&quot;payload&quot;:{&quot;feature&quot;:&quot;home_page_globe&quot;,&quot;originating_url&quot;:&quot;https://github.com/&quot;,&quot;user_id&quot;:null}}"
-                                     data-feature-hydro-hmac="be0cbc7da2f32edf891ea5670441a984e859ce28aaba3fb91263d03f7c5a368d"
                                      data-show-when-feature-enabled="true">
                                     <div class="mx-auto width-full mt-n9 mt-lg-2 home-globe position-relative height-full js-webgl-globe">
                                         <video class="home-globe-container-video js-globe-fallback-video " height="918" hidden="" loop=""
                                                muted="" playsinline=""
-                                               preload="none" width="916">
+                                               preload="none" width="916" >
                                             <source src="images/test.mp4"
                                                     type="video/mp4; codecs=hevc,mp4a.40.2">
                                             <source src="images/test.mp4"
@@ -122,7 +121,7 @@
                                         </video>
                                         <video class="home-globe-container-video js-globe-fallback-video-small" width="100%" height="auto" hidden="" loop="" muted=""
                                                playsinline=""
-                                               preload="none">
+                                               preload="none" >
                                             <source src="images/test.mp4"
                                                     type="video/mp4; codecs=hevc,mp4a.40.2">
                                             <source src="images/test.mp4"
@@ -130,65 +129,64 @@
                                             <source src="images/test.mp4"
                                                     type="video/mp4">
                                         </video>
-                                        <img alt="Planet earth with visualization of GitHub activity crossing the globe"
-                                             class="width-full height-auto js-globe-fallback-image"
-                                             decoding="async"
-                                             height="1404"
-                                             hidden="" loading="lazy"
-                                             sizes="(max-width: 700px) 70vw, 700px" src="https://github.githubassets.com/images/modules/site/home/globe.jpg"
-                                             srcset="https://github.githubassets.com/images/modules/site/home/globe-700.jpg 700w,
-                                                https://github.githubassets.com/images/modules/site/home/globe.jpg 1400w" width="1238">
+
+<!--                                        <img alt="Planet earth with visualization of GitHub activity crossing the globe"-->
+<!--                                             class="width-full height-auto js-globe-fallback-image"-->
+<!--                                             decoding="async"-->
+<!--                                             height="1404"-->
+<!--                                             hidden="" loading="lazy"-->
+<!--                                             sizes="(max-width: 700px) 70vw, 700px" src="https://github.githubassets.com/images/modules/site/home/globe.jpg"-->
+<!--                                             srcset="https://github.githubassets.com/images/modules/site/home/globe-700.jpg 700w,-->
+<!--                                                https://github.githubassets.com/images/modules/site/home/globe.jpg 1400w" width="1238">-->
 
 
-                                        <canvas class="webgl-canvas js-globe-canvas"
-                                                height="900" style="display: block; width: 900px; height: 900px;" width="900"></canvas>
+<!--                                        <canvas class="webgl-canvas js-globe-canvas" height="900" style="display: block; width: 900px; height: 900px;" width="900"></canvas>-->
                                     </div>
                                 </div>
 
-                                <div class="home-globe-container" data-feature="home_page_globe"
-                                     data-show-when-feature-enabled="false" hidden="">
-                                    <div class="mx-auto width-full mt-n9 mt-lg-2 home-globe position-relative height-full">
-                                        <img alt="Planet earth with visualization of GitHub activity crossing the globe"
-                                             class="width-full height-auto js-globe-fallback-image"
-                                             decoding="async"
-                                             height="1404"
-                                             loading="lazy" sizes="(max-width: 700px) 70vw, 700px"
-                                             src="https://github.githubassets.com/images/modules/site/home/globe.jpg"
-                                             srcset="https://github.githubassets.com/images/modules/site/home/globe-700.jpg 700w,
-                                                https://github.githubassets.com/images/modules/site/home/globe.jpg 1400w" width="1238">
-                                    </div>
-                                </div>
+<!--                                <div class="home-globe-container" data-feature="home_page_globe"-->
+<!--                                     data-show-when-feature-enabled="false" hidden="">-->
+<!--                                    <div class="mx-auto width-full mt-n9 mt-lg-2 home-globe position-relative height-full">-->
+<!--                                        <img alt="Planet earth with visualization of GitHub activity crossing the globe"-->
+<!--                                             class="width-full height-auto js-globe-fallback-image"-->
+<!--                                             decoding="async"-->
+<!--                                             height="1404"-->
+<!--                                             loading="lazy" sizes="(max-width: 700px) 70vw, 700px"-->
+<!--                                             src="https://github.githubassets.com/images/modules/site/home/globe.jpg"-->
+<!--                                             srcset="https://github.githubassets.com/images/modules/site/home/globe-700.jpg 700w,-->
+<!--                                                https://github.githubassets.com/images/modules/site/home/globe.jpg 1400w" width="1238">-->
+<!--                                    </div>-->
+<!--                                </div>-->
                             </div>
 
                         </div>
                     </div>
 
-                    <img alt="Glowing universe"
-                         class="position-absolute home-hero-glow events-none z-1" src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg">
-                    <video class="js-globe-aurora position-absolute top-0 left-0 right-0 bottom-0" hidden="" loop="" muted=""
-                           playsinline=""
-                           preload="none" style="margin: auto; z-index: -1; min-width: 100%; min-height: 100%;">
-                        <source src="https://github.githubassets.com/images/modules/site/home/aurora.h264.mp4"
-                                type="video/mp4; codecs=avc1.4D401E,mp4a.40.2">
-                    </video>
+<!--                    <img alt="Glowing universe"-->
+<!--                         class="position-absolute home-hero-glow events-none z-1" src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg">-->
+<!--                    <video class="js-globe-aurora position-absolute top-0 left-0 right-0 bottom-0" hidden="" loop="" muted=""-->
+<!--                           playsinline="" preload="none" style="margin: auto; z-index: -1; min-width: 100%; min-height: 100%;">-->
+<!--                        <source src="images/test.mp4"-->
+<!--                                type="video/mp4; codecs=avc1.4D401E,mp4a.40.2">-->
+<!--                    </video>-->
                 </div>
 
-                <!--                <div class="position-absolute width-full color-bg-default" style="bottom: -4rem;">-->
-                <!--                    <div class="container-xl p-responsive">-->
-                <!--                        <div class="d-flex flex-justify-center flex-lg-justify-end color-bg-default">-->
-                <!--                            <div class="col-8 col-sm-7 col-md-6 col-lg-5 position-relative z-2 right-lg-n12 events-none">-->
-                <!--                                <picture>-->
-                <!--                                    <source srcset="https://github.githubassets.com/images/modules/site/home/astro-mona.webp"-->
-                <!--                                            type="image/webp">-->
-                <!--                                    <img alt="Mona looking at GitHub activity across the globe"-->
-                <!--                                         class="home-astro-mona width-full position-absolute bottom-0 height-auto"-->
-                <!--                                         height="967" src="https://github.githubassets.com/images/modules/site/home/astro-mona.svg"-->
-                <!--                                         width="960">-->
-                <!--                                </picture>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
+<!--                <div class="position-absolute width-full color-bg-default" style="bottom: -4rem;">-->
+<!--                    <div class="container-xl p-responsive">-->
+<!--                        <div class="d-flex flex-justify-center flex-lg-justify-end color-bg-default">-->
+<!--                            <div class="col-8 col-sm-7 col-md-6 col-lg-5 position-relative z-2 right-lg-n12 events-none">-->
+<!--                                <picture>-->
+<!--                                    <source srcset="https://github.githubassets.com/images/modules/site/home/astro-mona.webp"-->
+<!--                                            type="image/webp">-->
+<!--                                    <img alt="Mona looking at GitHub activity across the globe"-->
+<!--                                         class="home-astro-mona width-full position-absolute bottom-0 height-auto"-->
+<!--                                         height="967" src="https://github.githubassets.com/images/modules/site/home/astro-mona.svg"-->
+<!--                                         width="960">-->
+<!--                                </picture>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
 
 
                 <svg class="position-absolute width-full z-1" fill="none" preserveAspectRatio="none" style="bottom: -1px;"
@@ -196,25 +194,27 @@
                     <path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path>
                 </svg>
 
-                <div class="data-info position-absolute top-0 left-0 rounded text-mono f6 py-3 pl-2 pr-5 z-3 js-globe-popup text-white d-none"
-                     style="max-width: 450px; background-color: rgba(0, 0, 0, 0.4);">
-                    <a class="js-globe-popover-card no-underline d-flex flex-row flex-items-start">
+<!--                <div class="data-info position-absolute top-0 left-0 rounded text-mono f6 py-3 pl-2 pr-5 z-3 js-globe-popup text-white d-none"-->
+<!--                     style="max-width: 450px; background-color: rgba(0, 0, 0, 0.4);">-->
+<!--                    <a class="js-globe-popover-card no-underline d-flex flex-row flex-items-start">-->
 
-                        <div class="pr-2 pt-1 pl-2">
-                            <img aria-hidden="true"
-                                 class="js-globe-popup-icon-pr" loading="lazy" src="https://github.githubassets.com/images/modules/site/home/globe/pull-request-icon.svg">
-                            <img aria-hidden="true"
-                                 class="js-globe-popup-icon-acv mt-n1 d-none" loading="lazy" src="https://github.githubassets.com/images/modules/site/home/globe/north-star.svg"
-                                 width="24">
-                        </div>
+<!--                        <div class="pr-2 pt-1 pl-2">-->
+<!--                            <img aria-hidden="true"-->
+<!--                                 class="js-globe-popup-icon-pr" loading="lazy" src="https://github.githubassets.com/images/modules/site/home/globe/pull-request-icon.svg">-->
+<!--                            <img aria-hidden="true"-->
+<!--                                 class="js-globe-popup-icon-acv mt-n1 d-none" loading="lazy" src="https://github.githubassets.com/images/modules/site/home/globe/north-star.svg"-->
+<!--                                 width="24">-->
+<!--                        </div>-->
 
-                        <div>
-                            <div class="f4 color-text-white js-globe-popover-header">#34234 facebook/react</div>
-                            <div class="js-globe-popover-body" style="color: #959da5"></div>
-                        </div>
+<!--                        <div>-->
+<!--                            <div class="f4 color-text-white js-globe-popover-header">#34234 facebook/react</div>-->
+<!--                            <div class="js-globe-popover-body" style="color: #959da5"></div>-->
+<!--                        </div>-->
 
-                    </a>
-                </div>
+<!--                    </a>-->
+<!--                </div>-->
+
+
             </div>
 
             <div class="mx-auto container-xl p-responsive py-8 py-md-9 overflow-hidden d-flex gutter gutter-spacious js-build-in-trigger"
@@ -225,42 +225,38 @@
                             <div class="col-12 col-md-9 px-4 pl-md-7 pt-4 py-md-6 mb-md-0 position-relative z-1 text-center text-md-left"
                                  style="margin-bottom: 25%; box-shadow: 0 0 50px 30px #fff">
                                 <h2 class="h5-mktg mb-1 mx-auto mx-md-0" style="max-width: 310px;"><span
-                                        class="text-gray-mktg">Build like the best with GitHub Enterprise</span></h2>
-                                <p class="f5-mktg text-gray-mktg mx-auto mx-md-0" style="max-width: 380px;">Take
-                                    collaboration to the next level with security and administrative features built for
-                                    teams.</p>
-                                <div class="d-flex flex-column flex-sm-row flex-items-center flex-justify-center flex-md-justify-start">
-                                    <a class="btn-mktg mb-3 mb-sm-0 mr-sm-2 btn-muted-mktg"
-                                       data-analytics-event="{&quot;category&quot;:&quot;Start a free trial&quot;,&quot;action&quot;:&quot;click to set up Enterprise trial&quot;,&quot;label&quot;:&quot;ref_page:/;ref_cta:Start a free trial;ref_loc:billboard launchpad&quot;}"
-                                       data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Start a free trial&quot;,&quot;action&quot;:&quot;click to set up Enterprise trial&quot;,&quot;label&quot;:&quot;ref_page:/;ref_cta:Start a free trial;ref_loc:billboard launchpad&quot;,&quot;originating_url&quot;:&quot;https://github.com/&quot;,&quot;user_id&quot;:null}}"
-                                       data-hydro-click-hmac="cb27f1da62d599b78949f9f785c8a260398eca8ec0e216819f09c25d1dc596f9"
-                                       data-test-selector="start-trial-button"
-                                       href="/organizations/enterprise_plan?ref_cta=Start%2520a%2520free%2520trial&amp;ref_loc=billboard&amp;ref_page=%2F">
-                                        Start a free trial
+                                        class="text-gray-mktg">Situation actuelle</span></h2>
+                                <p class="f5-mktg text-gray-mktg mx-auto mx-md-0" style="max-width: 380px;">
+                                    Je suis apprentie ingénieur en informatique et Réseaux de communication à l’école supérieur de chimie physique électronique
+                                    <a href="https://www.cpe.fr/formation-numerique/ingenieur-informatique-reseaux/" target=_blank >(CPE)</a> de Lyon
+                                    et en alternance chez <a href="https://www.ypok.com/" target=_blank >YPOK S.A.</a></p>
 
-
-                                    </a>
-                                    <a class="btn-mktg btn-subtle-mktg"
-                                       data-analytics-event="{&quot;category&quot;:&quot;Contact Sales&quot;,&quot;action&quot;:&quot;click to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/;ref_cta:Contact Sales;ref_loc:billboard launchpad;&quot;}"
-                                       data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Contact Sales&quot;,&quot;action&quot;:&quot;click to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/;ref_cta:Contact Sales;ref_loc:billboard launchpad;&quot;,&quot;originating_url&quot;:&quot;https://github.com/&quot;,&quot;user_id&quot;:null}}"
-                                       data-hydro-click-hmac="8ed5616995021cec9a2de9fe5a8a53c5c079da72a95acfce3976f1171ebcb478"
-                                       href="https://github.com/enterprise/contact?ref_page=/&amp;ref_cta=Contact%20Sales&amp;ref_loc=billboard%20launchpad">
-                                        Contact Sales
-
-
-                                    </a>
-                                </div>
+<!--                                <div class="d-flex flex-column flex-sm-row flex-items-center flex-justify-center flex-md-justify-start">-->
+<!--                                    <a class="btn-mktg mb-3 mb-sm-0 mr-sm-2 btn-muted-mktg"-->
+<!--                                       data-analytics-event="{&quot;category&quot;:&quot;Start a free trial&quot;,&quot;action&quot;:&quot;click to set up Enterprise trial&quot;,&quot;label&quot;:&quot;ref_page:/;ref_cta:Start a free trial;ref_loc:billboard launchpad&quot;}"-->
+<!--                                       data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Start a free trial&quot;,&quot;action&quot;:&quot;click to set up Enterprise trial&quot;,&quot;label&quot;:&quot;ref_page:/;ref_cta:Start a free trial;ref_loc:billboard launchpad&quot;,&quot;originating_url&quot;:&quot;https://github.com/&quot;,&quot;user_id&quot;:null}}"-->
+<!--                                       data-hydro-click-hmac="cb27f1da62d599b78949f9f785c8a260398eca8ec0e216819f09c25d1dc596f9"-->
+<!--                                       data-test-selector="start-trial-button"-->
+<!--                                       href="/organizations/enterprise_plan?ref_cta=Start%2520a%2520free%2520trial&amp;ref_loc=billboard&amp;ref_page=%2F">-->
+<!--                                        Start a free trial-->
+<!--                                    </a>-->
+<!--                                    <a class="btn-mktg btn-subtle-mktg"-->
+<!--                                       data-analytics-event="{&quot;category&quot;:&quot;Contact Sales&quot;,&quot;action&quot;:&quot;click to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/;ref_cta:Contact Sales;ref_loc:billboard launchpad;&quot;}"-->
+<!--                                       data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Contact Sales&quot;,&quot;action&quot;:&quot;click to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/;ref_cta:Contact Sales;ref_loc:billboard launchpad;&quot;,&quot;originating_url&quot;:&quot;https://github.com/&quot;,&quot;user_id&quot;:null}}"-->
+<!--                                       data-hydro-click-hmac="8ed5616995021cec9a2de9fe5a8a53c5c079da72a95acfce3976f1171ebcb478"-->
+<!--                                       href="https://github.com/enterprise/contact?ref_page=/&amp;ref_cta=Contact%20Sales&amp;ref_loc=billboard%20launchpad">-->
+<!--                                        Contact Sales-->
+<!--                                    </a>-->
+<!--                                </div>-->
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-8 position-absolute text-right position-relative height-full right-0">
+                        <div class="col-12 col-md-8 position-absolute text-right position-relative height-full right-0 large-only">
                             <picture>
-                                <source srcset="https://github.githubassets.com/images/modules/site/home/enterprise-city-w-logos.webp"
-                                        type="image/webp">
-                                <img alt="" aria-hidden="true"
-                                     class="width-full height-auto position-absolute right-0 bottom-0" decoding="async" height="436"
-                                     loading="lazy"
-                                     src="https://github.githubassets.com/images/modules/site/home/enterprise-city-w-logos.jpg" width="1376">
+                                <source srcset="images/bandeau2.svg" type="image/svg">
+                                <img alt="" aria-hidden="true" decoding="async" height="436"
+                                     class="width-full height-auto position-absolute right-0 bottom-0"
+                                     loading="lazy" src="images/bandeau.jpg" width="1376">
                             </picture>
                         </div>
                     </div>
@@ -271,8 +267,7 @@
 
         <div class="position-relative pt-5 mt-5">
             <div class="position-absolute left-0 width-full height-full js-build-in-trigger"
-                 data-build-margin-bottom="100" data-build-non-decorative="true" data-build-threshold="0"
-                 style="top: -2rem;">
+                 data-build-margin-bottom="100" data-build-non-decorative="true" data-build-threshold="0"  style="top: -2rem;">
                 <div class="mb-4 top-0 home-nav-outer js-build-in-item width-full z-3">
                     <div class="home-nav width-full js-toggler-container">
                         <div class="home-nav-bg position-fixed top-0 left-0 width-full height-full z-n1 color-bg-emphasis js-toggler-target-off"

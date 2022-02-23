@@ -12,3 +12,10 @@
 @import url(site-9dda9acb3c59ad159045a83d870cf295.css);
 @import url(tab-size-fix-948e3a1f6e7ae2d1245d3cabac7f87c2.css);
 @import url(site-9dda9acb3c59ad159045a83d870cf295-2.css);
+
+@media screen and (max-width: 640px) {
+    .large-only {
+        display:none!important;
+        /*clear:both;*/
+    }
+}
