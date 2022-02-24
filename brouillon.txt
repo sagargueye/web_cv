@@ -557,4 +557,6 @@ script
 <!--            src="https://github.githubassets.com/assets/unsupported-1fc1ac02.js" type="application/javascript"></script>-->
 ------------------------------------------------------------------------------------------------------------------------
 
+js-build-in-item build-in-slideX-left f2-mktg text-gray-mktg lh-condensed text-semibold mb-5 mb-lg-0 col-5-max build-in-animate
 
+js-build-in-item build-in-slideX-left f2-mktg text-gray-mktg lh-condensed text-semibold mb-5 mb-lg-0 col-5-max
