@@ -558,3 +558,10 @@ script
 ------------------------------------------------------------------------------------------------------------------------
 
 home-pr-description ==> background-color:var(--color-canvas-default);box-shadow:0 0 0 1px rgba(53,72,91,.05);
+
+
+<svg class="d-none d-md-block position-relative home-branch offset-n1" fill="none" preserveAspectRatio="none"
+                                             viewBox="0 0 110 142"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="m1-8c0 75 108 75 108 150" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                        </svg>
