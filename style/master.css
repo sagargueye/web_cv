@@ -37,3 +37,72 @@
     width: 100%;
     height: 100%;
 }
+
+/*.profile-education-icon {*/
+/*    border: 1px solid #ececec;*/
+/*    position: absolute;*/
+/*    width: 90px;*/
+/*    height: 90px;*/
+/*    line-height: 90px;*/
+/*    font-size: 42px;*/
+/*    border-radius: 50px;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    background-color: #ffffff;*/
+/*    color: #ff4f6c;*/
+/*    -webkit-transition: all 0.5s;*/
+/*    transition: all 0.5s;*/
+/*}*/
+/*.text-muted {*/
+/*    color: #6c757d !important;*/
+/*}*/
+/*.text-center {*/
+/*    text-align: center !important;*/
+/*}*/
+/*.mb-5, .my-5 {*/
+/*    margin-bottom: 3rem !important;*/
+/*}*/
+/*.mt-5, .my-5 {*/
+/*    margin-top: 3rem !important;*/
+/*}*/
+/*.text-muted {*/
+/*    --bs-text-opacity: 1;*/
+/*    color: #6c757d !important;*/
+/*}*/
+/*.text-center {*/
+/*    text-align: center !important;*/
+/*}*/
+/*.mb-5 {*/
+/*    margin-bottom: 3rem !important;*/
+/*}*/
+/*.mt-5 {*/
+/*    margin-top: 3rem !important;*/
+/*}*/
+/*.job-detail {*/
+/*    border: 1px solid #ececec;*/
+/*    border-radius: 6px;*/
+/*}*/
+/*.candidates-profile-education {*/
+/*    padding: 64px 24px 24px;*/
+/*}*/
+/**, ::after, ::before {*/
+/*    box-sizing: border-box;*/
+/*}*/
+/**, ::after, ::before {*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.row {*/
+/*    --bs-gutter-x: 1.5rem;*/
+/*    --bs-gutter-y: 0;*/
+/*}*/
+/*.profile-education-icon {*/
+/*    line-height: 90px;*/
+/*    font-size: 42px;*/
+/*    color: #ff4f6c;*/
+/*}*/
+/*.row {*/
+/*     --bs-gutter-x: 1.5rem;*/
+/*     --bs-gutter-y: 0;*/
+/* }*/
