@@ -567,3 +567,53 @@ home-pr-description ==> background-color:var(--color-canvas-default);box-shadow:
 </svg>
 
 home-mobile-iphone
+------
+
+Lead Web Developer
+Vocalmeet
+
+oct. 2019 - juin 20209 mois
+
+Toronto, Ontario, Canada
+
+- Gestion des recherches, planification et management d’une équipe de développeurs.
+- Conception et réalisation d’une solution Web de gestion de membres avec ReactJS et Wordpress.
+
+
+Résultats : Mise en oeuvre du projet (conception, équipe, planification, rédaction…) pour une sortie début 2021.
+YPOK
+YPOK
+
+2 ans 10 mois
+
+    Directeur technique
+
+    mars 2018 - juin 20191 an 4 mois
+
+    Miribel, Auvergne-Rhône-Alpes, France
+
+    - Management du pôle informatique, avec application de processus de développement, tests et mise en production.
+    - Mise en conformité totale des solutions et des processus à la nouvelle Réglementation Générale de Protection des Données (RGPD)
+
+    Résultats : Pérennité de la solution Web, réduction des délais, conformité RGPD, impact plus fort en R&D, ajout de processus de mise en production.
+    Chef de projet
+
+    sept. 2016 - mars 20181 an 7 mois
+
+    - Gestion de projet pour les nouveaux clients de la solution de Gestion de la Relation Citoyen, établissement des cahiers des charges, accompagnement, déploiement et mise en production.
+    - Gestion des évolutions des applications Web (recherche, conformité, rédaction…).
+
+    Résultats : Installation de processus pour les nouveaux projets, développement d'évolutions majeures pour la solution Web
+
+Graphique YPOK
+Développeur
+YPOK
+
+sept. 2013 - juil. 20162 ans 11 mois
+
+Miribel, Auvergne-Rhône-Alpes, France
+
+- Hotline et support niveau 1.
+- Recherche et développement de nouvelles fonctionnalités.
+
+Résultats : Mise en place d’évolutions majeures concernant les 2 solutions Web de l’entreprise.
